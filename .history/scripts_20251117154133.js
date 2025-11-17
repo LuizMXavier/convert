@@ -34,11 +34,8 @@ form.onsubmit = (event) => {
 function convertCurrency (amount, price, symbol) {
     try {
         description.textContent = `${symbol} 1 = ${formatCurrencyBRL(price)}`
-        let total = amount * price
-        result.textContent = total
-        
         footer.classList.add("show-result")
-
+        
     } catch (error) {
         console.log(error)
         footer.classList.remove("show-result")

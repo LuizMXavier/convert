@@ -35,7 +35,7 @@ function convertCurrency (amount, price, symbol) {
     try {
         description.textContent = `${symbol} 1 = ${formatCurrencyBRL(price)}`
         let total = amount * price
-        result.textContent = total
+        result.
         
         footer.classList.add("show-result")
 

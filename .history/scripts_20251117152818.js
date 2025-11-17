@@ -32,7 +32,7 @@ form.onsubmit = (event) => {
 
 function convertCurrency (amount, price, symbol) {
     try {
-        description.textContent = `${symbol} 1 = ${price}`
+        description.textContent = `${symbol} 1 = ${sy}`
         footer.classList.add("show-result")
     } catch (error) {
         console.log(error)

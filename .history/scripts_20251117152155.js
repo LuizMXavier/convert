@@ -35,6 +35,6 @@ function convertCurrency (amount, price, symbol) {
     } catch (error) {
         console.log(error)
         footer.classList.remove("show-result")
-        alert("Não foi possível converter. Tente mais tarde")
+        alert("N")
     }
 }

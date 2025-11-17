@@ -31,10 +31,8 @@ form.onsubmit = (event) => {
 
 function convertCurrency (amount, price, symbol) {
     try {
-        footer.classList.add("show-result")
+        console.log(amount,price,symbol)
     } catch (error) {
-        console.log(error)
-        footer.classList.remove("show-result")
-        alert("Não foi possível converter. Tente mais tarde")
+        
     }
 }

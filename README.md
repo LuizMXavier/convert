@@ -23,4 +23,4 @@ O objetivo é permitir que qualquer pessoa consiga:
 - Pode ser expandido para incluir novos tipos de conversão.
 
 ## 📁 Imagem do Projeto
-
+![Imagem da Tela Principal](./img/tela.png)

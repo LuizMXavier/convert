@@ -35,7 +35,7 @@ function convertCurrency (amount, price, symbol) {
     try {
         description.textContent = `${symbol} 1 = ${formatCurrencyBRL(price)}`
         let total = amount * price
-        total = formatCurrencyBRL(total).replace("R$","")
+        total 
         
         result.textContent = `${total} Reais`
         
